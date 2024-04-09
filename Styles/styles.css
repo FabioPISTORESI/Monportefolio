@@ -3,8 +3,8 @@
 }
 
 body{
-    background: rgb(47,6,247);
-    background: linear-gradient(243deg, rgba(47,6,247,1) 0%, rgba(85,1,168,1) 35%, rgba(158,158,158,1) 100%);
+    background: rgb(219,250,240);
+    background: linear-gradient(243deg, rgba(219,250,240,1) 0%, rgba(29,215,157,1) 35%, rgba(10,72,52,1) 100%);
 }
 
 .container,p{
