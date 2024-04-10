@@ -1,9 +1,16 @@
-h1,h2{
- background-image: url(https://liquidconcepts.com/wp-content/uploads/2023/04/Galaxy_55.jpg);
+h1{
+ background-image: url(https://giffiles.alphacoders.com/144/14466.gif);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
+ background-position: center;
 }
     
- h3{
+ h3,h2{
     color: black;
+
+
  } 
+
+ h2::first-letter{
+    font-size: 2rem;
+  }

@@ -13,7 +13,7 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     transition: .1s; /* temps de transition lors du hover : une demi seconde */
     }
     nav  a:hover{ /* tous liens lors du survol dans la balise nav */
-    background: #05ffea; /* couleur de fond */
+    background: #6300c7; /* couleur de fond */
     }
 
 nav > ul > li{
