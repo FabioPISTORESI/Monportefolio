@@ -1,0 +1,28 @@
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: right; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000f0e; /* couleur de fond */
+    display: flex;
+    align-items: center;
+    height: 38px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 10px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 17px; /* taille du texte */
+    transition: .1s; /* temps de transition lors du hover : une demi seconde */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #05ffea; /* couleur de fond */
+    }
+
+nav > ul > li{
+    font-size: 40px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    text-stroke: 2px rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}

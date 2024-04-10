@@ -4,7 +4,7 @@
 
 body{
     background: rgb(219,250,240);
-    background: linear-gradient(243deg, rgba(219,250,240,1) 0%, rgba(29,215,157,1) 35%, rgba(10,72,52,1) 100%);
+    background: linear-gradient(243deg, rgba(219,250,240,1) 0%, rgb(29, 215, 157) 35%, rgba(10,72,52,1) 100%);
 }
 
 .container,p{
@@ -17,28 +17,7 @@ body{
     width: auto;
 }
 
-nav  a{ /* tous les liens a à l'intérieur de la balise nav */
-    float: right; /* effet flottant */
-    text-decoration: none; /* pas d'héritage avec effet souligné */
-    color: #ffffff; /* couleur du texte */
-    background: #000000; /* couleur de fond */
-    height: 38px; /* hauteur */
-    line-height: 33px; /* interligne */
-    padding: 0 10px; /* marges intérieur */
-    font-family: sans-serif; /* police d'écriture */
-    font-size: 17px; /* taille du texte */
-    transition: .1s; /* temps de transition lors du hover : une demi seconde */
-    }
-    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
-    background: #ff00b7; /* couleur de fond */
-    }
 
-nav > ul > li{
-    font-size: 40px;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
-    text-stroke: 2px rgb(255, 255, 255);
-}
-
-a[href] {
-    color: rgb(0, 30, 255);
+a[href] > nav{
+    color: rgb(211, 200, 200);
   }
