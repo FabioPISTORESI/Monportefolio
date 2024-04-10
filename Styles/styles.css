@@ -3,8 +3,8 @@
 }
 
 body{
-    background: rgb(219,250,240);
-    background: linear-gradient(243deg, rgba(219,250,240,1) 0%, rgb(29, 215, 157) 35%, rgba(10,72,52,1) 100%);
+    background: rgb(6,246,231);
+    background: linear-gradient(243deg, rgba(6,246,231,1) 0%, rgba(102,35,169,1) 35%, rgba(115,0,82,1) 100%);
 }
 
 .container,p{
@@ -21,3 +21,28 @@ body{
 a[href] > nav{
     color: rgb(211, 200, 200);
   }
+
+#Oui{
+    color: rgb(0, 194, 16);
+}
+
+#Non{
+    color: red;
+}
+
+article{
+    background: rgb(6,246,231);
+    background: linear-gradient(243deg, rgba(6,246,231,1) 0%, rgba(102,35,169,1) 35%, rgba(115,0,82,1) 100%);
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 80;
+}
+
+.card > * {
+    width: 44vw;
+}

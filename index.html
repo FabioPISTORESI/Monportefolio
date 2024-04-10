@@ -15,20 +15,22 @@
   <link rel="stylesheet" href="Styles/Nav.css" />
   <link rel="stylesheet" href="Styles/neontext.css" />
   <link rel="stylesheet" href="Styles/rainbow.css" />
-    <title>PorteFolio Fabio</title>
+    <title>PortFolio Fabio</title>
   </head>
   <body>
     <main class="container">
-      <h1 id="neontext">Fabio Pistoresi</h1>
         <nav>
+          <h1 class="rainbow">Fabio Pistoresi</h1>
           <ul>
               <li><a href="#presentation" class="pico-color-white-400">A propos</a></li>
               <li><a href="#hobbies" class="pico-color-white-400">Mes hobbies</a></li>
               <li><a href="#contact" class="pico-color-white-400">Contact</a></li>
             </ul>
           </nav>
+          <div>
           <img src="Styles/1200px-MayKo_Urban_Series_6.jpg" alt="Ma photo" class="flotte">
-    </main>
+          </div>
+        </main>
     <header class="container">
          <br>
           <p class="container">Le sommaire vous serviras pour la navigation dans les rubriques de mon portefolio:</p>
@@ -39,6 +41,7 @@
             <li class="pico-color-grey-950">Contact</li>
           </ul>
           <br>
+          <article>
           <h2 class="container" id="presentation">Présentation</h2>
           <p class="container">Je me nomme Fabio Pistoresi et j'ai 16 ans. Actuellement, je suis en formation à La Toile à Ecully, dans le Rhône. Mon parcours est avant tout marqué par ma passion pour l'informatique et le développement web.
 
@@ -50,7 +53,9 @@
             
             Je suis reconnaissant de l'opportunité qui m'est offerte de poursuivre mes études dans un domaine qui me passionne réellement, et je suis impatient de voir où ce parcours me mènera.</p>
          <br>
+        </article>
          <section class="line-height">
+          <article>
          <h2 class="container">Mes expériences professionnels</h2>
          <p class="container">Expériences Professionnelles chez Technalp</p>
             
@@ -68,6 +73,8 @@
             <br>
             <p>Implication dans des projets visant à développer de nouvelles technologies ou à améliorer les produits existants.</p>
             <br>
+          </article>
+            <article>
             <p><strong>Compétences acquises:</strong></p>
             <br>
             <p>Connaissance approfondie du processus de fabrication de cartes électroniques.</p>
@@ -79,6 +86,29 @@
             <p>Compréhension des normes de qualité et des procédures d'assurance qualité.</p>
             <br>
             <p>Aptitude à résoudre des problèmes et à prendre des décisions dans un contexte industriel.</p>
+          </article>
+          <div class="card">
+            <article>
+              <h2>Hard Skills</h2>
+              <h3>CSS 👻</h3>
+              <progress value="25" max="100">CSS</progress>
+              <h3>HTML 🤖</h3>
+              <progress value="35" max="100">CSS</progress>
+              <h3>JavaScript 👽</h3>
+              <progress value="0.5" max="100">CSS</progress>
+            </article>
+            <article>
+              <h2>Soft Skills</h2>
+              <h3>Créativité 🧠</h3>
+              <progress value="90" max="100">CSS</progress>
+              <h3>Communication 💬</h3>
+              <progress value="95" max="100">CSS</progress>
+              <h3>Confiance en soi 🙂‍</h3>
+              <progress value="70" max="100">CSS</progress>
+              <h3>Esprit d'equipe 👥</h3>
+              <progress value="87" max="100">CSS</progress>
+            </article>
+          </div>
         </section>
         <br>
         <section class="container" id="hobbies">
@@ -104,16 +134,14 @@
             </section>
             <br>
             <p class="container">Mon portefolio vous a t'il plu ?</p>
-            <fieldset class="container">
-              <label>
-                <input type="checkbox" name="conditions:" />
-                Oui
-              </label>
-              <label>
-                <input type="checkbox" name="news" />
-                Non
-              </label>
-            </fieldset>
+            <label id="Oui">Oui
+              <input type="radio" checked="checked" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label id="Non">Non
+              <input type="radio" name="radio">
+              <span class="checkmark"></span>
+            </label>
           <div id="buttonblue">
             <button>OK</button>
           </div>
